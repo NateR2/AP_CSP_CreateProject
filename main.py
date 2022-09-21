@@ -172,14 +172,6 @@ while col2==col1 or not(col2==0 or col2==1 or col2==2):
 sortColor(col1, col2)
 
 
-#general information for user.
-print("***If the sorted image was not automatically displayed please access the newImage.png. ")
-print("I found that this program works best when the image input is .jpg and the output is .png as starting as .jpg is faster ") 
-print("and ending in .png has minimal/no loss. Ending with .jpg has noticeable lossy compression and 'static' where ")
-print("colors have had their values moved closer to their average and there are 8*8 grids of pixels throughout the image which have ")
-print("'random' values. To verify pixel colors I don't recommend paint3D ***")
-
 # Works Cited
 # This program uses both the Python os and PIL.Image libraries several times throughout the program
-# Code segments from Brian Ford's raster starter code are also used
 # The original photo was posted by Bessi on pixabay
